@@ -1,0 +1,115 @@
+:root {
+    --primary: #6C63FF;
+    --secondary: #f50057;
+    --primary-dark: #4b45b2;
+    --secondary-dark: #ab003c;
+    --off-white: #f8f8f8;
+    --white: #ffffff
+}
+.navi .active{
+    --primary-dark: #efeef5;
+    font-weight: bolder;
+
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    color: var(--off-white);
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: var(--off-white);
+    font-size: 1rem;
+}
+.navi li{
+    text-align: right;
+    display: inline-block;
+    padding: 0.5rem;
+
+
+}
+ul{
+    text-align: right;
+}
+nav{
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: var(--primary);
+    border-radius: 0rem 0rem 0rem 1rem;
+    margin: auto;
+
+}
+.ow{
+    background-color: rgb(247, 247, 247);
+    padding: 2rem 1rem 2rem 1rem;
+
+}
+.blogs {
+    background-color: rgb(247, 247, 247);
+    padding: 2rem 1rem 2rem 1rem;
+
+}
+.blogs a{
+    background-color: var(--primary);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+section {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+footer {
+    padding: 2rem 1rem ;
+    background-color: var(--primary-dark);
+    color: var(--white)
+}
+
+footer a {
+    color: var(--white)
+}
+
+footer li {
+    list-style: none;
+    padding: 0.5rem;;
+    text-align: left;
+}
+
+.text-m {
+    font-size: 1rem;
+}
+img{
+    border-radius: 2rem;
+    margin: auto;
+    display: block;
+    max-width: 50%;
+}
+p{
+    padding: 1rem 1rem 0rem 1rem;
+    font-size: 1.5rem;
+}
+.bio{
+    font-size: 1.5rem;
+}
+.twitter a{
+  
+    color: var(--primary);
+}
+.tag{
+    font-size: 1rem;
+    
+}
+.projects a{
+    color: var(--off-white);
+    background-color: var(--primary);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+/*.bottom{
+    font-family: Arial, Helvetica, sans-serif;
+}
